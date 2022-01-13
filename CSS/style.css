@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main_div .top_view{
+background-image: url(..//IMAGE/web-design-2906159_960_720.jpg);
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.F_DIV{
+    display: flex;
+    background-color: brown;
+    height: 80px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+   
+}
+
+.F_DIV ul {
+display: flex;
+list-style: none;
+margin-right: 100px;
+font-size: 20px;
+margin-top: 20px;
+
+}
+.F_DIV ul a{
+    text-decoration: none;
+    padding: 20px;
+    color: seashell;
+   
+}
+p{
+    margin-left: 100px;
+    font-size: 20px;
+    color: seashell;
+    margin-top: 20px;
+}
+
+
+.F_DIV ul li:hover{
+    background-color: rgb(136, 81, 29);
+    border-radius: 30px;
+
+}
+
+li{
+    height: 30px;
+}
+
+.Snd_div h1{
+
+    color: white;
+padding-top: 250px;
+    text-align: center;
+    font-size: 50px;
+}
+.Snd_div h2{
+    color: white;
+    text-align: center;
+}
+
+button{
+    background-color: transparent;
+    border: 1px solid white;
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    color: white;
+    border-radius: 50px;
+    margin-right: 10px;
+
+}
+.btn{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.Snd_div button:hover{
+    transform: 0.7s;
+    background-color: rgb(253, 242, 241);
+    color: rgb(34, 70, 70);
+}
+
+.bbb{
+height: 80vh;
+padding-top: 160px;
+background-color: rgb(221, 94, 94);
+
+}
+.bbb .box{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+.box div{
+    width: 400px;
+    padding: 50px;
+    background-color: rgb(153, 98, 98);
+    transition: 0.9s;
+    }
+
+
+    .box div:hover{
+        transform: translateY(10px);
+        }
+        
+        
+        .box4{
+           
+                background-color: rgb(79, 110, 98);
+                 padding-top: 100px;
+                text-align: center;
+        
+        }
+       .animation_div{
+           text-align: left;
+           text-align: center;
+       }
+
+       .animation_div .andiv{
+        text-align: center;
+        margin-top: 50px;
+       }
+
+.flx_div{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.box4{
+    align-items: center;
+}
+
+.another_div{
+    padding: 50px;
+}
+
+.animation_div{
+    padding: 50px;
+}
+.p1 h1{
+    margin-bottom: 20px;
+}
+.animation_div{
+    width: 50%;
+    height: 400px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.another_div{
+    margin-top: 30px;
+    width: 50%;
+height: 400px;
+
+text-align: left;
+
+}
+.another_div p{margin: 0;
+ }
+.p1 .h11{ 
+    margin-top: 10px;
+    }
+.p2 .h12{
+    margin-top: 10px;
+    }
+ .p3 .h13{
+        margin-top: 10px;
+        }
+
+ .p1 h2{
+            margin-top: 10px;
+        }
+
+.p2 h2{
+            margin-top: 10px;
+        }
+
+.p3 h2{
+    margin-top: 10px;
+}
+.andiv .div1, .div2, .div3, .div4{
+    height: 20px;
+    background-color: rgb(43, 119, 124);
+    text-align: center;
+    width: 80%;
+    margin-left: 60px;
+}
+.andiv h4{
+    margin-top: 20px;
+}
+
+.box5{
+    background-color: rgb(82, 173, 109);
+    height: 300px;
+    
+}
+ .box5 .RR{
+     text-align: center;
+     padding: 50px 30px;
+}
+
+.box5 .fd{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px ;
+     
+}
+.box5 .fd h1{
+text-justify: auto;
+}
+
+.box5 p{
+   margin: 0 50px;
+   color: black;
+}
+
+.h1cls{
+    text-align: center;
+}
+
+.box6{
+    height: 500px;
+    background-color: rgb(187, 115, 103);
+}
+.h1_cls{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.box6_in{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 40px;
+    border-radius: 200px solid red;
+}
+.box6_in .c4 .c44 p{
+    align-items: center;
+    margin: 0;
+}
+.box6 span{
+    font-size: 50px;
+    color: rgb(66, 60, 60);
+}
+.box6_in .c4{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 300px;
+}
+.box6_in .c4 h1{
+    text-align: center;
+    border-bottom: 1px solid rgb(66, 60, 60);
+    padding: 20px;
+}
+.box6_in .c4 p{
+    padding: 30px;
+}
+.box6_in .c4 h2{
+    border-top: 1px solid rgb(66, 60, 60);
+    padding: 20px;
+}
+.box7{
+    background-color: rgb(165, 84, 84);
+      padding: 100px 0px;
+
+}
+
+.box7_div1{
+    text-align: center;
+    padding-top: 0 20px;
+}
+
+.c111{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 0 30px;
+}
+
+
+
+.c111 p{
+    margin: 0;
+    font-size: 18px;
+}
+.c111 div{
+    text-align: center;
+    width: 350px;
+    border: 1px solid black;
+    padding: 60px 20px;
+
+}
+.c111 h1, .c111 h4{
+    color: white;
+    margin: 20px 0px;
+}
+.box8{
+    background-color: rgb(136, 95, 103);
+}
+.box8 .dffd{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.b1{
+    width: 65%;
+    margin: 0 auto;
+}
+.b1 input{
+    width: 100%;
+    height: 35px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    display: block;
+    margin: 15px;
+    border-radius: 10px;
+
+}
+
+
+.box8 .b1{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    }
+    textarea{
+        width: 100%;
+        border-radius: 10px;
+        outline: 0;
+        border: 0;
+        padding: 10px;
+        font-family: sans-serif;
+        margin: 15px;
+    }
+    .b1 button{
+        transition: 0.7s;
+    }
+    .b1 button:hover{
+        background-color: white;
+        color: black;
+    }
+
+.dddd{
+    background-color: rgb(94, 53, 72);
+}
+
+
+.hjjjj{
+    padding-top: 20px;
+    text-align: center;
+}
+
+    .box9 .search-box input[type="text"]{
+        width: 84%;
+        background: transparent;
+        border: 0;
+        outline: 0;
+        height: 100%;
+    }
+    .box9 .search-box input[type="button"]{
+        height: 100%;
+        background: transparent;
+        border: 0;
+        background: #930000;
+        padding: 0 17px;
+        color: white;
+        transform: translateX(10px);
+    }
+    .box9 .search-box{
+        border-radius: 10px;
+        background-color: white;
+        width: 50%;
+        margin: 0 auto;
+        height: 35px;
+        padding: 0;
+        overflow: hidden;
+    }
+    .box10{
+        display: flex;
+        padding: 0 40px;
+    }
+    .box10 .utc{
+        text-align: left;
+        width: 400px;
+        padding: 50px;
+    }
+    .box10 p{
+        margin: 0;
+    }
+    .box10 .nav{
+        text-align: left;
+        width: 400px;
+        padding:50px;
+    }
+    .box10 .new{
+        text-align: left;
+        width: 400px;
+        padding:50px;
+    }
+    .new .search-box{
+        border-radius: 10px;
+        overflow: hidden;
+        background: white;
+        height: 35px;
+        margin-top: 10px;
+        
+    }
+    .new .search-box input{
+    background: transparent;
+    border: 0;
+     outline:0 ;
+     height: 100%;
+    
+    }
+    #i1{
+        
+        width: 70%;
+        padding: 10px;
+    }
+    #j1{
+        background-color: rgb(243, 8, 8);
+        transform: translateX(10px);
+        padding: 0 10px;
+    }
+    .last{
+        margin-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
